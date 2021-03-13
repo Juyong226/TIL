@@ -1,0 +1,85 @@
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;} /* 由ъ뒪�듃 �븵�뿉 .  �젣嫄�*/
+a{text-decoration: none;} /* 留곹겕�뿉 諛묒쨪  �젣嫄�*/
+ 
+header{
+    width: 800px; /*硫붿씤 �씠誘몄��쓽 �꼫鍮� �궗�씠利덉� 媛숈쓬*/
+    height: 95px;
+    background-color: #2d3a4b;
+ 
+    /* header �븞�뿉 �슂�냼�뱾�쓣 紐⑤몢 absolute �룷吏��뀡�쑝濡� 諛곗튂�븷 寃껋씠�씪�꽌 */
+    /* absolute �슂�냼媛� header�쓽 醫뚯긽�떒�쓣 湲곗��쑝濡� �븯�젮硫� */
+    /* header�쓽 position�씠 relative �뿬�빞留� �븿 */
+    position: relative;
+}
+ 
+/* �젣紐⑹쁺�뿭�븞�뿉 �엳�뒗 硫붿씤 濡쒓퀬 �씠誘몄� �쐞移� 吏��젙 */
+#logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+ 
+}
+ 
+/* �젣紐⑹쁺�뿭�븞�뿉 �삤瑜몄そ �긽�떒�뿉 top_menu 諛곗튂 */
+#top_menu{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: white;
+}
+ 
+/* top_menu a�쓽 湲��뵪 �븯���깋�쑝濡� */
+#top_menu a{color: white;}
+ 
+/* �뿤�뜑 �쁺�뿭�븞�뿉 �꽕鍮꾧쾶�씠�뀡 硫붾돱 諛곗튂 */
+nav{
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
+    font-size: 16px;
+}
+ 
+nav li{
+    display: inline;
+    margin-left: 30px;
+}
+ 
+nav li a{color: white;}
+
+#content{
+	width: 800px;
+	overflow: hidden;
+}
+ 
+#content #main img{
+	width: 800px;
+	height: auto;	
+}
+
+
+#content #banner #banner_1{
+	float: left;	
+}
+
+#content #banner #banner_2{
+	float: right;	
+}
+
+
+/* footer �쁺�뿭 */
+footer{
+    width: 800px; /*�뿤�뜑�� 媛숈� �궗�씠利�*/
+    height: 90px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+footer img{
+	width: 100%;
+	height: auto;
+} 
+/* �쟾泥� �럹�씠吏�媛� 媛��슫�뜲濡� �삤�룄濡� */
+#page{width: 820px; margin: 0px auto;}
+
